@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Morpheus Launcher:jar">
+    <output-path>$PROJECT_DIR$/../Morpheus Original Launcher/classes/artifacts/Morpheus_Launcher_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Morpheus Launcher.jar">
+        <element id="module-output" name="Morpheus Launcher" />
+      </element>
+    </root>
+  </artifact>
+</component>
