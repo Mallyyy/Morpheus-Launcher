@@ -94,8 +94,6 @@ public class Launcher {
     if (Launcher.updatedCache()) {
         updatedCache();
       }
-
-
       new File(File.listRoots()[0].getAbsolutePath() + "/Morpheus/").mkdir();
       downloadClient("https://morpheus-rsps.com/client/Morpheus.jar", File.listRoots()[0].getAbsolutePath() + "/Morpheus/Morpheus.jar");
     }
@@ -110,6 +108,10 @@ public class Launcher {
   public final static String SERVER_HOST() {
     return localHost ? "localhost" : "127.0.0.1";//15.204.66.46
   }
+
+  public final static String JAVA_DIRECTORY_NAME ="";
+
+
   public final static String CACHE_DIRECTORY_NAME = "keystonecache";
   private static final String CACHE_FILE_NAME = "keystonecache.zip";
   private static final String CACHE_URL = "https://morpheus-rsps.com/cache/keystonecache.zip";
@@ -223,6 +225,17 @@ public class Launcher {
       cacheDir.mkdir();
     }
     return cacheLoc;
+  }
+
+  public static String getJavaDirectory() {
+    String javaPath = System.getProperty("user.dir") + "/";
+
+    javaPath += JAVA_DIRECTORY_NAME + "/";
+    File javaDir = new File(javaPath);
+    if(!javaDir.exists()) {
+      javaDir.mkdir();
+    }
+    return javaPath;
   }
   //Downloads Client
   public static void downloadClient(String remotePath, String localPath) {
@@ -653,17 +666,16 @@ public class Launcher {
       public void mousePressed(MouseEvent e){
         File f = new File(File.listRoots()[0].getAbsolutePath() + "Morpheus\\Morpheus.jar");
         if(f.exists() && !f.isDirectory()) {
-          //OPEN FILE
-          System.out.println("x");
+          System.out.println("x-opening");
+
           try {
-            Runtime.getRuntime().exec("java -jar " + File.listRoots()[0].getAbsolutePath() + "Morpheus\\Morpheus.jar");
+            ProcessBuilder pb = new ProcessBuilder("java", "-jar", File.listRoots()[0].getAbsolutePath() + "Morpheus\\Morpheus.jar");
+            Process p = pb.start();
             System.exit(0);
-          } catch (IOException e1) {
-            // TODO Auto-generated catch block
-            e1.printStackTrace();
+          } catch (Exception IOexc) {
+            System.err.println(IOexc.toString());
           }
         } else {
-          //PRINT OUT IT'S DONE
           lblClientUpTo.setText("Files are missing!");
         }
       }
