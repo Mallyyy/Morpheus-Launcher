@@ -1,10 +1,11 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="Morpheus Launcher:jar">
+  <artifact type="jar" name="Morpheus Launcher:jar">
     <output-path>$PROJECT_DIR$/../Morpheus Original Launcher/classes/artifacts/Morpheus_Launcher_jar</output-path>
-    <root id="root">
-      <element id="archive" name="Morpheus Launcher.jar">
-        <element id="module-output" name="Morpheus Launcher" />
-      </element>
+    <root id="archive" name="Morpheus Launcher.jar">
+      <element id="module-output" name="Morpheus Launcher" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/resources/jna-5.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/resources/java-discord-rpc-2.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/resources/discord-rpc-release-v3.4.0.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

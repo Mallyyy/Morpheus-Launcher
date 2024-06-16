@@ -10,27 +10,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d93ce3c6-9592-4498-8376-224002146e4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_xml_bind_jaxb_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/resources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Morpheus Launcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Morpheus Launcher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Morpheus_Launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Morpheus_Launcher_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Morpheus_Launcher_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_xml_bind_jaxb_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_base.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discord-rpc-release-v3.4.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discord-rpc-release-v3.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-discord-rpc-2.0.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-discord-rpc-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-common-1.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-common-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-forms-1.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jgoodies-forms-1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna-5.8.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jna-5.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miglayout-src.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/miglayout15-swing.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/launcher/main/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/launcher/main/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/discord-rpc-release-v3.4.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/java-discord-rpc-2.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javafx-base-11.0.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javafx-base-11.0.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javafx-base-11.0.2-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javafx-base-11.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javax.activation-api-1.2.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javax.activation-api-1.2.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jaxb-api-2.3.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jaxb-api-2.3.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jgoodies-common-1.8.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jgoodies-common-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jgoodies-forms-1.8.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jgoodies-forms-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jna-5.8.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/jsr173_api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/miglayout-src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/miglayout15-swing.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +59,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path&quot;: &quot;C:\\Users\\MALAC\\OneDrive\\Desktop\\Morpheus-Launcher\\resources&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MALAC/OneDrive/Desktop/Realm Launcher&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3816092&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Unnamed.executor": "Run",
+    "Downloaded.Files.Path": "C:\\Users\\MALAC\\OneDrive\\Desktop\\Morpheus-Launcher\\resources",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/MALAC/OneDrive/Desktop/Realm Launcher",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3816092",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MALAC\OneDrive\Desktop\Morpheus-Launcher\resources" />
